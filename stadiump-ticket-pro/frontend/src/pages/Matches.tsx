@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { api } from '../lib/api';
+import { getStadiumImageUrl } from '../lib/stadiumImages';
 
 interface Match {
   id: number;
@@ -9,7 +10,7 @@ interface Match {
   away_team: string;
   match_date: string;
   base_price: number;
-  stadium?: { name: string; city: string };
+  stadium?: { id?: number; name: string; city: string };
   availability?: { available: number; total: number };
 }
 
@@ -34,8 +35,16 @@ export default function Matches() {
         {matches.map((m) => (
           <div
             key={m.id}
-            className="bg-white rounded-lg shadow p-4 border border-gray-200"
+            className="bg-white rounded-lg shadow overflow-hidden border border-gray-200"
           >
+            <div className="aspect-video bg-gray-100 relative">
+              <img
+                src={getStadiumImageUrl(m.stadium?.id)}
+                alt={m.stadium?.name ? `${m.stadium.name} — ${m.stadium.city}` : 'Stade'}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-4">
             <p className="font-semibold text-lg">
               {m.home_team} – {m.away_team}
             </p>
@@ -56,6 +65,7 @@ export default function Matches() {
             >
               {t('selectSeats')}
             </Link>
+            </div>
           </div>
         ))}
       </div>

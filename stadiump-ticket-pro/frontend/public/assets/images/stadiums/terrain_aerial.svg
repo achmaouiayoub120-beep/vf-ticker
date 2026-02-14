@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="ga" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#3CB371"/><stop offset="100%" style="stop-color:#228B22"/></linearGradient>
+    <linearGradient id="skya" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#1E90FF"/><stop offset="100%" style="stop-color:#87CEEB"/></linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#skya)"/>
+  <ellipse cx="200" cy="155" rx="155" ry="55" fill="url(#ga)"/>
+  <path d="M45 155 Q200 75 355 155" stroke="#fff" stroke-width="7" fill="none"/>
+  <line x1="200" y1="100" x2="200" y2="210" stroke="#fff" stroke-width="5"/>
+  <circle cx="200" cy="155" r="24" fill="none" stroke="#fff" stroke-width="4"/>
+  <title>Terrain  vue aérienne</title>
+</svg>

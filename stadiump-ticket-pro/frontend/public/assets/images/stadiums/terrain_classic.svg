@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="gc" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#006400"/><stop offset="100%" style="stop-color:#004d00"/></linearGradient>
+    <linearGradient id="skyc" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#ADD8E6"/><stop offset="100%" style="stop-color:#F5F5DC"/></linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#skyc)"/>
+  <ellipse cx="200" cy="162" rx="142" ry="48" fill="url(#gc)"/>
+  <path d="M58 162 Q200 95 342 162" stroke="#c72b2b" stroke-width="6" fill="none"/>
+  <circle cx="200" cy="140" r="18" fill="none" stroke="#c72b2b" stroke-width="3"/>
+  <title>Terrain classique</title>
+</svg>

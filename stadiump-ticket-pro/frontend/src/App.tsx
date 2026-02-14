@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Routes, Route, Link } from 'react-router-dom';
-import { useAuthStore } from './stores/authStore';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Matches from './pages/Matches';
 import MatchSeats from './pages/MatchSeats';

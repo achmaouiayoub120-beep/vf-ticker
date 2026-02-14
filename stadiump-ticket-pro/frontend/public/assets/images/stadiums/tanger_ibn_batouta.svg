@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#228B22"/><stop offset="100%" style="stop-color:#0d4d0d"/></linearGradient>
+    <linearGradient id="sky5" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#87CEEB"/><stop offset="100%" style="stop-color:#F0E68C"/></linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#sky5)"/>
+  <ellipse cx="200" cy="160" rx="148" ry="50" fill="url(#g5)"/>
+  <path d="M52 160 Q200 92 348 160" stroke="#8B0000" stroke-width="7" fill="none"/>
+  <rect x="178" y="128" width="44" height="32" rx="4" fill="#f2e6d9"/>
+  <text x="200" y="149" text-anchor="middle" font-size="10" fill="#333" font-family="sans-serif">TNG</text>
+  <title>Grand Stade de Tanger (Ibn Batouta)</title>
+</svg>
