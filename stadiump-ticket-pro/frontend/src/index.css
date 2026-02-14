@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --maroc-rouge: #c72b2b;
+  --maroc-vert: #006400;
+  --maroc-sable: #f2e6d9;
+}
+
+body {
+  @apply bg-maroc-sable text-gray-900 antialiased;
+}
+
+[dir="rtl"] {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
